@@ -1,5 +1,6 @@
 # Shopping Cart Project
 
-Tech based shopping app built with React.
+Shopping app for Football Jerseys built with React.
+(Sphere Joys = Jersey Shop)
 
-[Icon Credits](https://www.flaticon.com/free-icon/online-shopping_3081559?term=shop&page=1&position=16&page=1&position=16&related_id=3081559&origin=tag) 
+[Icon Credits](https://www.flaticon.com/free-icon/football_1800944?term=football&page=1&position=18&page=1&position=18&related_id=1800944&origin=tag#) 

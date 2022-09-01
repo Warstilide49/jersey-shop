@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Header = () =>{
+const Header = (props) =>{
 	return(
 		<div id='header'>
 			<h2>Sphere Joys</h2>
@@ -8,6 +8,7 @@ const Header = () =>{
 				<Link to="/">Home</Link>
 				<Link to="/shop">Shop</Link>
 				<Link to="/about">About</Link>
+				<div>{props.total}</div>
 			</div>
 		</div>
 	)

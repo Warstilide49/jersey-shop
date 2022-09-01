@@ -1,4 +1,5 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {useState} from 'react';
 
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -8,19 +9,22 @@ import About from './pages/About'
 import Shop from './pages/Shop'
 
 import "./styles/main.css"
+import "./styles/content.css"
 
-function Router(){
+const App = () =>{
+	const [totalProducts, setTotal] = useState(0);
+
 	return(
 		<BrowserRouter>
-			<Header/>
+			<Header total={totalProducts}/>
 			<Routes>
 				<Route path="/" element={<Home />}/>
 				<Route path="/about" element={<About />}/>
-				<Route path="/shop" element={<Shop />}/>
+				<Route path="/shop" element={<Shop setTotal={setTotal}/>}/>
 			</Routes>
 			<Footer/>
 		</BrowserRouter>
 	)
 }
 
-export default Router;
+export default App;

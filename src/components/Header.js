@@ -12,8 +12,8 @@ const Header = (props) =>{
 				<h2>Sphere Joys</h2>
 			</div>
 			<div className='nav'>
-				<Link to="/">Home</Link>
-				<Link to="/shop">Shop</Link>
+				<Link to="/jersey-shop">Home</Link>
+				<Link to="/jersey-shop/shop">Shop</Link>
 				<Cart total={total} setModal={setModal} />
 			</div>
 		</div>

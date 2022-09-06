@@ -6,7 +6,7 @@ Shopping app for Football Jerseys built with React.
 All jersey images have been taken from [Classic Football Shirts](https://www.classicfootballshirts.co.uk/)
 [Icon Credits](https://www.flaticon.com/free-icon/jersey_5213947?term=jersey&related_id=5213947#) 
 
-##Unsplash Image Credits
+## Unsplash Image Credits
 
 [1](https://unsplash.com/photos/Nlpn996Yksg)
 [2](https://unsplash.com/photos/Z4RYz52ljts)

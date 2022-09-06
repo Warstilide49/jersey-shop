@@ -30,9 +30,9 @@ const App = () =>{
 		<BrowserRouter>
 			<Header total={totalProducts}  setModal={setModal}/>
 			<Routes>
-				<Route path="/" element={<Home />}/>
-				<Route path="/shop" element={<Shop setTotal={setTotal} productsInCart={productsInCart} setProductsInCart={setProductsInCart}/>}/>
-				<Route path="*" element={<PageNotFound />} />
+				<Route path="/jersey-shop" element={<Home />}/>
+				<Route path="/jersey-shop/shop" element={<Shop setTotal={setTotal} productsInCart={productsInCart} setProductsInCart={setProductsInCart}/>}/>
+				<Route path="/jersey-shop/*" element={<PageNotFound />} />
 			</Routes>
 			<Footer/>
 			{modalOpen && <Modal setModal={setModal} productsInCart={productsInCart} setProductsInCart={setProductsInCart}/>}

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jersey-shop/static/css/main.f1448053.css",
-    "main.js": "/jersey-shop/static/js/main.c0c80994.js",
+    "main.js": "/jersey-shop/static/js/main.fcf8dd06.js",
     "static/media/1.jpg": "/jersey-shop/static/media/1.12e181423f343555c80a.jpg",
     "static/media/5.jpg": "/jersey-shop/static/media/5.8f825f1d6ac3c11e14fc.jpg",
     "static/media/3.jpg": "/jersey-shop/static/media/3.83164638b8277012009f.jpg",
@@ -11,10 +11,10 @@
     "static/media/shopping-cart.png": "/jersey-shop/static/media/shopping-cart.3dcb3c21e910c5cc9a84.png",
     "index.html": "/jersey-shop/index.html",
     "main.f1448053.css.map": "/jersey-shop/static/css/main.f1448053.css.map",
-    "main.c0c80994.js.map": "/jersey-shop/static/js/main.c0c80994.js.map"
+    "main.fcf8dd06.js.map": "/jersey-shop/static/js/main.fcf8dd06.js.map"
   },
   "entrypoints": [
     "static/css/main.f1448053.css",
-    "static/js/main.c0c80994.js"
+    "static/js/main.fcf8dd06.js"
   ]
 }

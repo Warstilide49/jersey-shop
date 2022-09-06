@@ -14,13 +14,16 @@ const Shop = (props) =>{
 		setTotal( Object.values(productsInCart).reduce((sum, value)=>{
 			return sum + value
 		}, 0));
-	},[allProducts, setTotal, productsInCart]);
+	},[setTotal, productsInCart]);
 
 	return(
-		<div id='container'>
-			{allProducts.map(item =>{
-				return(<Item imgSrc={commonLink + jerseys[item]} title={item} productsInCart={productsInCart} setProductsInCart={setProductsInCart} key={uuidv4()} />)
-			})}
+		<div id="shop">
+			<h2>Products</h2>
+			<div id='container'>
+				{allProducts.map(item =>{
+					return(<Item imgSrc={commonLink + jerseys[item]["site"]} title={item} price={jerseys[item]["price"]} productsInCart={productsInCart} setProductsInCart={setProductsInCart} key={uuidv4()} />)
+				})}
+			</div>
 		</div>
 	);
 }

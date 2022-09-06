@@ -1,14 +1,16 @@
+import cartImg from "../assets/shopping-cart.png"
+
 const Cart = (props) =>{
 	const {total, setModal} = props;
 
 	const handler = (e) =>{
 		setModal(true);
-		console.log(e)
 	}
 	// Cart icon with number on top
 	return(
-		<div onClick={handler}>
-			{total}
+		<div className='cart-icon' onClick={handler}>
+			<img src={cartImg} alt="cart" />
+			<div className='item-indicator'>{total}</div>
 		</div>
 	)
 }

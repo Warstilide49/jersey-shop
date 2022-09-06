@@ -1,13 +1,62 @@
 {
-	"2014-15 Liverpool Third Shirt": "l/i/liverpool-14-third-use_5_1_2_1_1_1_1_1_1_1_1_1_2.jpg/tr:w-500,dpr-2,q-100",
-	"1996-98 Liverpool Home Shirt": "l/i/liverpool-96-home-use_20_1_1_1_1_2_1.jpg/tr:w-500,dpr-2,q-100",
-	"2014-15 Liverpool Home Shirt": "l/i/liverpool-14-home_23_1_1_2_1_2_1_2.jpg/tr:w-500,dpr-2,q-100",
-	"1995-96 Liverpool FA Cup Final Away Shirt": "a/r/arc-160822-4-1_pt2kq6hluitkjiy4.jpg/tr:w-500,dpr-2,q-100",
-	"2016-17 Chelsea Third Shirt":"c/h/chelsea-16-third_4.jpg/tr:w-500,dpr-2,q-100",
-	"2009-10 Chelsea Away L/S Shirt":"c/h/chelsea-09-away-ls_3.jpg/tr:w-500,dpr-2,q-100",
-	"1998-99 Chelsea Match Issue Signed Shirt":"a/r/arc-160822-41-1_d9wiw0pot2f9lvoj.jpg/tr:w-500,dpr-2,q-100",
-	"1989-91 Lazio Home Shirt":"l/a/lazio-89-home-new_2.jpg/tr:w-500,h-500,cm-pad_resize,dpr-2,q-50",
-	"2005-06 Real Madrid Away Shirt":"r/e/real-madrid-05-away_2_1_1.jpg/tr:w-500,h-500,cm-pad_resize,dpr-2,q-50",
-	"2010-11 Real Madrid Home Shirt":"r/e/real-madrid-10-home-use_1_9_1_1_1_1_1_1_2_2_2_1_1_1_2_1_1_1_1_2.jpg/tr:w-500,dpr-2,q-100",
-	"2012-13 Real Madrid Away Shirt":"r/e/real-madrid-12-away_2_6_1_3_1_2_2_1_3_1_2_2_1_1_2_1.jpg/tr:w-500,dpr-2,q-100"
+	"2014-15 Liverpool Third Shirt": 
+		{"site" : "l/i/liverpool-14-third-use_5_1_2_1_1_1_1_1_1_1_1_1_2.jpg/tr:w-500,dpr-2,q-100",
+		"price":400},
+	"2014-15 Liverpool Home Shirt": 
+		{"site" : "l/i/liverpool-14-home_23_1_1_2_1_2_1_2.jpg/tr:w-500,dpr-2,q-100",
+		"price":300},
+	"2016-17 Chelsea Third Shirt":
+		{"site" : "c/h/chelsea-16-third_4.jpg/tr:w-500,dpr-2,q-100",
+		"price":200},
+	"2009-10 Chelsea Away L/S Shirt":
+		{"site" : "c/h/chelsea-09-away-ls_3.jpg/tr:w-500,dpr-2,q-100",
+		"price":250},
+	"1998-99 Chelsea Match Issue Signed Shirt":
+		{"site": "a/r/arc-160822-41-1_d9wiw0pot2f9lvoj.jpg/tr:w-500,dpr-2,q-100",
+		"price":600},
+	"1989-91 Lazio Home Shirt":
+		{"site" : "l/a/lazio-89-home-new_2.jpg/tr:w-500,h-500,cm-pad_resize,dpr-2,q-50",
+		"price":100},
+	"2005-06 Real Madrid Away Shirt":
+		{"site": "r/e/real-madrid-05-away_2_1_1.jpg/tr:w-500,h-500,cm-pad_resize,dpr-2,q-50",
+		"price":400},
+	"2010-11 Real Madrid Home Shirt":
+		{"site":"r/e/real-madrid-10-home-use_1_9_1_1_1_1_1_1_2_2_2_1_1_1_2_1_1_1_1_2.jpg/tr:w-500,dpr-2,q-100",
+		"price":370},
+	"2012-13 Real Madrid Away Shirt":
+		{"site": "r/e/real-madrid-12-away_2_6_1_3_1_2_2_1_3_1_2_2_1_1_2_1.jpg/tr:w-500,dpr-2,q-100",
+		"price":500},
+	"1995-96 Liverpool FA Cup Final Away Shirt": 
+		{"site": "a/r/arc-160822-4-1_pt2kq6hluitkjiy4.jpg/tr:w-500,dpr-2,q-100",
+		"price":550},
+	"2001-02 Manchester United Away":
+		{"site": "m/a/man-united-01-cent-white-use_4_5_2_1_1_2_2_1_2_1_2_2_1_1_1_1_1_2_1_1_1_2_2_2_1.jpg/tr:w-500,dpr-2,q-100",
+		"price":400},
+	"1992-93 Manchester United Away":
+		{"site":"m/a/man-united-92-away_1_3_2_1_1_1_2_1_2_2_3_2_2_2_2_2_2_1_1_2_1_3_2_1_2_1.jpg/tr:w-500,dpr-2,q-100",
+		"price":380},
+	"2014-15 Manchester United Away":
+		{"site": "m/a/man-united-14-away_3_1_1_2_2_2_2_2_2_1_1_1_2_3_1_4_1_2_2_1_1_1_1_1_1_2_4_2_1.jpg/tr:w-500,dpr-2,q-100",
+		"price":620},
+	"2006-07 Manchester United Home":
+		{"site": "m/a/man-united-06-home-boys-7-years_2_1.jpg/tr:w-500,dpr-2,q-100",
+		"price":430},
+	"1996-98 Liverpool Home Shirt": 
+		{"site":"l/i/liverpool-96-home-use_20_1_1_1_1_2_1.jpg/tr:w-500,dpr-2,q-100",
+		"price":700},
+	"2011-12 Barcelona Home":
+		{"site":"b/a/barca-11-home-ls_7_2_2_2_2_1_1_1_1_2_1_1_1_2_1_1.jpg/tr:w-500,h-500,cm-pad_resize,dpr-2,q-50",
+		"price":500},
+	"2004-05 Barcelona Away":
+		{"site":"b/a/barcelona-04-away_5_1_3_1_1_2_1_1_2_1_2_3_1_1_2_1_1_1_1_2_2_2_1_2_2_4.jpg/tr:w-500,h-500,cm-pad_resize,dpr-2,q-50",
+		"price":320},
+	"2001-03 Barcelona Away":
+		{"site": "b/a/barcelona-01-away-use_7_1_1_1_1_1_2_2_3_2_2_1_2_1_2_2_1.jpg/tr:w-500,h-500,cm-pad_resize,dpr-2,q-50",
+		"price":360},
+	"2009-10 Hull City Home Shirt": 
+		{"site": "h/u/hull-09-home-ns_3.jpg/tr:w-500,dpr-2,q-100",
+		"price": 700},
+	"2012-13 Lyon Home Shirt":
+		{"site":"l/y/lyon-12-home-fair_1.jpg/tr:w-500,h-500,cm-pad_resize,dpr-2,q-50",
+		"price":200}
 }

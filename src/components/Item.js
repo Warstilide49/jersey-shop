@@ -1,5 +1,5 @@
 const Item = (props) =>{
-	const {imgSrc, title, productsInCart, setProductsInCart} = props;
+	const {imgSrc, title, price, productsInCart, setProductsInCart} = props;
 
 	const incrementProduct = (e) =>{
 
@@ -38,9 +38,12 @@ const Item = (props) =>{
 		<div className='item'>
 			<img src={imgSrc} alt={title}></img>
 			<h4>{title}</h4>
-			<button onClick={incrementProduct}>Add</button>
-			<div>{productsInCart[title]}</div>
-			<button onClick={decrementProduct}>Remove</button>
+			<h4 className='price'>{"$ "+ price}</h4>
+			<div className='count-handler'>
+				<button onClick={incrementProduct}>Add</button>
+				<div>{productsInCart[title]}</div>
+				<button onClick={decrementProduct}>Remove</button>
+			</div>
 		</div>
 	)
 }

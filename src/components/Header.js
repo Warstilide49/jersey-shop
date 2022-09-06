@@ -14,7 +14,6 @@ const Header = (props) =>{
 			<div className='nav'>
 				<Link to="/">Home</Link>
 				<Link to="/shop">Shop</Link>
-				<Link to="/about">About</Link>
 				<Cart total={total} setModal={setModal} />
 			</div>
 		</div>

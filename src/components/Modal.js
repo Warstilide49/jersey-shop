@@ -12,17 +12,29 @@ const Modal = (props) =>{
 		setProductsInCart({});
 	}
 
+	// price*quantity
+	const findTotal = () =>{
+		const total= Object.keys(productsInCart).reduce((previous, current) =>{
+			return previous + (jerseys[current]["price"] * productsInCart[current] )
+		},0)
+		return total;
+	}
+
 	return(
 		<div className='modal_bg' onClick={(e) =>{setModal(false)}}>
 			<div className='modal' onClick={(e) =>{e.stopPropagation();setModal(true)}}>
-				<h4>Cart</h4>
-				{
+				<h3><u>Cart</u></h3>
+				<div className='modal_container'>{
 					Object.keys(productsInCart).map((item)=>{
-						return(<Item imgSrc={commonLink + jerseys[item]} title={item} productsInCart={productsInCart} setProductsInCart={setProductsInCart} key={uuidv4()} />)
+						return(<Item imgSrc={commonLink + jerseys[item]["site"]} title={item} price={jerseys[item]["price"]}  productsInCart={productsInCart} setProductsInCart={setProductsInCart} key={uuidv4()} />)
 					})
 				}
-				<button>Checkout</button>
-				<button onClick={clear}>Clear all items</button>
+				</div>
+				<h4>{"Total: $" + findTotal()}</h4>
+				<div className='buttons'>
+					<button>Checkout</button>
+					<button onClick={clear}>Clear all items</button>
+				</div>
 			</div>
 		</div>
 	)
